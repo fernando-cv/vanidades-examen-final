@@ -1,0 +1,488 @@
+@font-face {
+  font-family: "fjalla";
+  src: url("./assets/fonts/FjallaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cabin";
+  src: url("./assets/fonts/Cabin-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "cabin";
+  src: url("./assets/fonts/Cabin-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "cabin";
+  src: url("./assets/fonts/Cabin-Medium.ttf") format("truetype");
+  font-weight: 700;
+}
+
+.menu-hamburguesa{
+  margin-top: 20px;
+}
+
+.raya{
+  border-bottom: 5px solid #e50034;
+  width: 40px;
+  height: 5px;
+
+}
+
+.fondo-color-superior{
+  background-color: #e50034;
+  height: 30px;
+}
+
+
+.menu-superior-header ul{
+  display: flex;
+  margin-top: 5px;
+}
+
+.menu-superior-header a{
+  margin-right: 5px;
+  margin-left: 10px; 
+  text-decoration: none;
+  color: #ffffff;
+  font-family: fjalla;
+  font-size: 14px;
+}
+
+.linea-derecho{
+  border-right: 3px solid #ffffff;
+}
+
+.img-titulo{
+  align-items: center;
+  margin-top: 20px;
+}
+
+.categorias{
+  margin-top: 20px;
+
+}
+.categorias a{
+  font-family: fjalla;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.categorias a:hover{
+  color: #e50034;
+}
+
+.categorias img{
+  margin-top: -1px;
+}
+
+.seccion-belleza h2 {
+  color: #e50034;
+  font-size: 100px;
+  font-family: fjalla;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.seccion-belleza h3{
+  margin-bottom: 40px;
+}
+.seccion-belleza a{
+  font-family: "cabin";
+  font-size: 28px;
+  margin-bottom: 80px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.seccion-belleza a:hover{
+  color: #e50034;
+}
+
+.div-suscribete{
+  margin-top: -100px;
+}
+
+.div-suscribete h3{
+  font-family: "cabin";
+  font-size: 30px;
+  width: 242px;
+}
+
+.div-suscribete input{
+  border: 2px solid gray;
+  font-family: roboto;
+  font-size: 14px;
+  width: 296px;
+  text-align: center;
+  padding: 8px;
+  margin-left: 6px;
+  padding-right: 0px;
+}
+
+.div-suscribete button{
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  width: 296px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: roboto;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 11px;
+}
+
+.div-suscribete img{
+  margin-bottom: 10px;
+}
+
+.numero{
+  display:flex;
+
+}
+
+.numero a{
+  margin-right: 5px;
+  font-family: fjalla;
+  color: grey;
+  padding: 10px 15px;
+}
+
+.numero a:hover{
+  background-color: #e50034;
+  color: #ffffff;
+}
+
+
+.seccion-suscribete h2{
+  color: #e50034;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: fjalla;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.suscribete-final{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.suscribete-final h3{
+  font-family: "cabin";
+  font-size: 24px;
+  width: 370px;
+}
+
+.suscribete-final input{
+  padding: 8px;
+  border: 2px solid gray;
+  font-family: roboto;
+  font-size: 14px;
+  width: 296px;
+}
+
+.suscribete-final button{
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  width: 296px;
+  padding: 8px;
+  font-family: roboto;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+
+
+.imagenes div div{
+  background-color: grey;
+  height: 90px;
+  margin-top: 21px;
+  
+}
+
+.footer{
+  background-color: #e50034;
+  margin-top: 20px;
+  height: 60px;
+}
+
+.footer div{
+  margin-top: 10px;
+}
+
+.footer p{
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #ffffff;
+  font-family:"cabin";
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.final{
+display: flex;
+margin-top: 10px;
+}
+
+.final li{
+margin-right: 10px;
+}
+
+
+
+.boton-ver-mas a {
+  color: #e50034;
+  border: 2px solid #e50034;
+  
+}
+
+.boton-x{
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  color: #e50034;
+  font-size: 50px;
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+  .categorias{
+  display: flex;
+ 
+  }
+  .alineacion{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .div-suscribete h3{
+    margin-top: 133px;
+    align-items: center;
+    text-align: center;
+    width: 646px;
+  }
+
+  .seccion-suscribete h2{
+    text-align: center;
+  }
+
+  .suscribete-final input{
+  margin-bottom: 5px 
+  }
+
+  .footer{
+    height: 120px;
+  }
+
+  .footer p{
+    margin-top: 5px;
+  }
+
+  .final{
+    margin-top: -0px;
+  }
+
+  .categorias{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .categorias img{
+    margin-left: 17px;
+    margin-top: -5px;
+  }
+
+  .categorias{
+    margin-left: 50px;
+  }
+
+  .categorias a{
+    margin-bottom: 5px;
+  }
+
+  .categorias li{
+    margin-bottom: 15px;
+    width: 115px;
+  }
+
+  .menu-desplegable{
+    background-color: #ffffff;
+    height: 40vh;
+    width: 200px;
+    z-index: 999;
+    position: absolute;
+    top: 128px;
+    left: 0px;
+    display: none;
+  }
+  .menu-hamburguesa:hover +.menu-desplegable, .menu-desplegable:hover{
+    display: block;
+  }
+
+  .boton-x{
+    font-size: 40px;
+  }
+
+}
+
+/*vanidades autore*/
+
+.seccion-belleza-autore h3{
+  font-size: 30px;
+  font-family:'fjalla';
+  text-transform: uppercase;
+  color: #e50034;
+}
+
+.seccion-belleza-autore p{
+  width: 434px;
+  font-size: 16px;
+  font-family: 'jfalla';
+  margin-bottom: 41px;
+
+}
+
+.seccion-belleza-autore a{
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'fjalla';
+  padding: 15px 70px;
+}
+
+@media (min-width: 320px) and (max-width:568px){
+
+  
+  
+  .img-titulo{
+    width: 250px;
+  }
+
+  .alineacion{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .numero a{
+    margin-right: 0px;
+    padding: 5px 7px;
+  }
+
+  .div-suscribete h3{
+    margin-top: 120px;
+  }
+
+  .div-suscribete input{
+    width: 260px;
+  }
+
+  .div-suscribete button{
+    width: 280px;
+  }
+
+  .div-suscribete img{
+    width: 258px;
+  }
+
+  .seccion-suscribete h2{
+    font-size: 60px;
+  }
+
+  .seccion-suscribete img{
+    width: 90px;
+  }
+
+  .suscribete-final{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .suscribete-final h3{
+    width: 195px;
+  }
+
+  .suscribete-final input{
+    width: 260px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  .suscribete-final button{
+    width: 280px;
+  }
+
+  .footer{
+    height: 150px;;
+  }
+
+  .menu-desplegable{
+    background-color: #ffffff;
+    height: 65vh;
+    width: 200px;
+    z-index: 999;
+    position: absolute;
+    top: 128px;
+    left: 0px;
+    display: none;
+  }
+  .menu-hamburguesa:hover +.menu-desplegable, .menu-desplegable:hover{
+    display: block;
+  }
+
+  .categorias img{
+    margin-left: 17px;
+    margin-top: -5px;
+  }
+
+  .categorias{
+    margin-left: 50px;
+  }
+
+  .categorias a{
+    margin-bottom: 5px;
+  }
+
+  .categorias li{
+    margin-bottom: 5px;
+  }
+
+  .menu-desplegable-superior{
+    background-color: #e50034;
+    height: 29vh;
+    width: 320px;
+    z-index: 999;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    display: none;
+  }
+
+  .boton-x-superior{
+    background-color: #ffffff;
+    border: 2px solid #e50034;
+    color: #e50034;
+    font-size: 30px;
+  }
+
+  .menu-hamburguesa-superior:hover +.menu-desplegable-superior, .menu-desplegable-superior:hover{
+    display: block;
+  }
+
+  .linea{
+    border-bottom: 3px solid #ffffff;
+    width: 0px;
+    height: 5px;
+  }
+}
